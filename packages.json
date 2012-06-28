@@ -1,0 +1,35 @@
+{
+  "name": "ko.spa",
+  "preferGlobal": "false",
+  "version": "0.1.0",
+  "author": "Ian Mckay <ian@navastmehearties.com>",
+  "description": "A single page application framework for Knockoutjs",
+  "contributors": [ 
+    {
+      "name": "Ian Mckay",
+      "email": "ian@navastmehearties.com"
+    } 
+  ],
+  "main": "./lib/ko.spa",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/madcapnmckay/kospa.git"
+  },
+  "keywords": [
+    "spa",
+    "knockoutjs"
+  ],
+  "noAnalyze": true,
+  "devDependencies": {
+    "expect.js" :  ">=0.1.2",
+    "sinon" :  ">=1.3.4"
+  },
+  "optionalDependencies": {
+  	"jquery" : : "latest",
+    "knockout" : "latest"
+  },
+  "license": "MIT",
+  "engine": {
+    "node": ">=0.6"
+  }
+}

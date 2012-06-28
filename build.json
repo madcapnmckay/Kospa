@@ -1,0 +1,14 @@
+{
+	"name": { 
+		"kospa.core.js": "kospa.js" 
+	},
+	"source": "src",
+	"output": "lib",
+	"spec": "spec",
+	"ext": "ext",
+	"lint": {},
+	"hosts": {
+		"/": "spec"
+	},
+	"working": "./tmp"
+}
